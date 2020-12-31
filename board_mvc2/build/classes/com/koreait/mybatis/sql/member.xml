@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="Member">
+	<!-- 
+		객체로 전달 받을 때에는 패키지명을 매번 적어주어야 합니다.
+		Alias(AS 알리아스)를 config.xml파일에 설정해 놓으면 짧은 이름으로 편하게 사용할 수 있습니다.
+	-->
+	<insert id="join" parameterType="MemberVO">
+		INSERT INTO MEMBER
+		VALUES(#{member_id},#{member_pw},#{member_name},#{member_age},#{member_gender},
+		#{member_email},#{member_zipcode},#{member_address},#{member_address_detail},#{member_address_etc})
+	</insert>
+	
+	<select id="checkId" parameterType="string" resultType="_int">
+		SELECT COUNT(*) FROM MEMBER WHERE member_id = #{member_id}
+	</select>
+	
+	<select id="login" parameterType="map" resultType="string">
+		SELECT member_id FROM MEMBER WHERE member_id = #{member_id} AND member_pw = #{member_pw}
+	</select>
+</mapper>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="Member">
+	<!-- 일반 자료형은 자료형 앞에 _를 붙여야 합니다. 클래스타입은 안붙여도 됩니다. -->
+	<select id="checkId" parameterType="string" resultType="_int">
+		SELECT COUNT(*) FROM MEMBER WHERE ID = #{id}
+	</select>
+	
+	<select id="login" parameterType="hashmap" resultType="_int">
+		SELECT COUNT(*) FROM MEMBER WHERE ID = #{id} AND PW = #{pw}
+	</select>
+	<insert id="join" parameterType="map">
+		INSERT INTO MEMBER
+		VALUES(#{id},#{name},#{pw},#{gender},#{zipcode},#{address},#{address_detail},#{address_etc},#{hp},#{hobby})
+	</insert>
+</mapper>

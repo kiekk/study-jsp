@@ -1,0 +1,68 @@
+{
+	"folders": {},
+	"connections": {
+		"oracle_thin-1750144d094-4557ce5c4887fd06": {
+			"provider": "oracle",
+			"driver": "oracle_thin",
+			"name": "XE",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"host": "localhost",
+				"port": "1521",
+				"database": "XE",
+				"url": "jdbc:oracle:thin:@//localhost:1521/XE",
+				"home": "C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-check-schema-content@": "false",
+					"@dbeaver-always-show-dba@": "false",
+					"@dbeaver-always-use-dba-views@": "false",
+					"@dbeaver-meta-use-sys-schema@": "false",
+					"@dbeaver-meta-use-simple-constraints@": "false",
+					"@dbeaver-use-rule-hint@": "false",
+					"@dbeaver-use-meta-optimizer@": "false",
+					"@dbeaver-connection-type@": "BASIC",
+					"@dbeaver-sid-service@": "SERVICE"
+				},
+				"auth-model": "oracle_native"
+			}
+		}
+	},
+	"virtual-models": {
+		"oracle_thin-1750144d094-4557ce5c4887fd06": {
+			"HR": {
+				"@properties": {
+					"erd.diagram.state": {
+						"serialized": "<diagram version=\"1\" name=\"HR\" time=\"202009221020\"><entities><data-source id=\"oracle_thin-1749f9d1ddd-3e150307f0f3d54\"><entity id=\"1\" name=\"COUNTRIES\" fq-name=\"HR.COUNTRIES\" order=\"0\" x=\"952\" y=\"62\"><path name=\"HR\"/></entity><entity id=\"2\" name=\"DEPARTMENTS\" fq-name=\"HR.DEPARTMENTS\" order=\"1\" x=\"484\" y=\"48\"><path name=\"HR\"/></entity><entity id=\"3\" name=\"EMPLOYEES\" fq-name=\"HR.EMPLOYEES\" order=\"2\" x=\"235\" y=\"53\"><path name=\"HR\"/></entity><entity id=\"4\" name=\"EMP_DETAILS_VIEW\" fq-name=\"HR.EMP_DETAILS_VIEW\" order=\"3\" x=\"235\" y=\"1099\"><path name=\"HR\"/></entity><entity id=\"5\" name=\"JOBS\" fq-name=\"HR.JOBS\" order=\"4\" x=\"484\" y=\"348\"><path name=\"HR\"/></entity><entity id=\"6\" name=\"JOB_HISTORY\" fq-name=\"HR.JOB_HISTORY\" order=\"5\" x=\"20\" y=\"137\"><path name=\"HR\"/></entity><entity id=\"7\" name=\"LOCATIONS\" fq-name=\"HR.LOCATIONS\" order=\"6\" x=\"733\" y=\"20\"><path name=\"HR\"/></entity><entity id=\"8\" name=\"MEMBER2\" fq-name=\"HR.MEMBER2\" order=\"7\" border-width=\"3\" x=\"1015\" y=\"950\"><path name=\"HR\"/></entity><entity id=\"9\" name=\"REGIONS\" fq-name=\"HR.REGIONS\" order=\"8\" x=\"1169\" y=\"76\"><path name=\"HR\"/></entity><entity id=\"10\" name=\"TL_BOOK\" fq-name=\"HR.TL_BOOK\" order=\"9\" x=\"235\" y=\"585\"><path name=\"HR\"/></entity><entity id=\"11\" name=\"TL_RENTAL\" fq-name=\"HR.TL_RENTAL\" order=\"10\" x=\"20\" y=\"742\"><path name=\"HR\"/></entity><entity id=\"12\" name=\"TL_USER\" fq-name=\"HR.TL_USER\" order=\"11\" x=\"235\" y=\"884\"><path name=\"HR\"/></entity></data-source></entities><relations><relation name=\"LOC_C_ID_FK\" fq-name=\"HR.LOCATIONS.LOC_C_ID_FK\" type=\"fk\" pk-ref=\"1\" fk-ref=\"7\"/><relation name=\"EMP_DEPT_FK\" fq-name=\"HR.EMPLOYEES.EMP_DEPT_FK\" type=\"fk\" pk-ref=\"2\" fk-ref=\"3\"/><relation name=\"JHIST_DEPT_FK\" fq-name=\"HR.JOB_HISTORY.JHIST_DEPT_FK\" type=\"fk\" pk-ref=\"2\" fk-ref=\"6\"/><relation name=\"DEPT_MGR_FK\" fq-name=\"HR.DEPARTMENTS.DEPT_MGR_FK\" type=\"fk\" pk-ref=\"3\" fk-ref=\"2\"/><relation name=\"EMP_MANAGER_FK\" fq-name=\"HR.EMPLOYEES.EMP_MANAGER_FK\" type=\"fk\" pk-ref=\"3\" fk-ref=\"3\"><bend type=\"rel\" x=\"472\" y=\"405\"/><bend type=\"rel\" x=\"330\" y=\"493\"/></relation><relation name=\"JHIST_EMP_FK\" fq-name=\"HR.JOB_HISTORY.JHIST_EMP_FK\" type=\"fk\" pk-ref=\"3\" fk-ref=\"6\"/><relation name=\"EMP_JOB_FK\" fq-name=\"HR.EMPLOYEES.EMP_JOB_FK\" type=\"fk\" pk-ref=\"5\" fk-ref=\"3\"/><relation name=\"JHIST_JOB_FK\" fq-name=\"HR.JOB_HISTORY.JHIST_JOB_FK\" type=\"fk\" pk-ref=\"5\" fk-ref=\"6\"/><relation name=\"DEPT_LOC_FK\" fq-name=\"HR.DEPARTMENTS.DEPT_LOC_FK\" type=\"fk\" pk-ref=\"7\" fk-ref=\"2\"/><relation name=\"COUNTR_REG_FK\" fq-name=\"HR.COUNTRIES.COUNTR_REG_FK\" type=\"fk\" pk-ref=\"9\" fk-ref=\"1\"/><relation name=\"FK_BOOK_NUMBER\" fq-name=\"HR.TL_RENTAL.FK_BOOK_NUMBER\" type=\"fk\" pk-ref=\"10\" fk-ref=\"11\"/><relation name=\"FK_USER_NUMBER\" fq-name=\"HR.TL_RENTAL.FK_USER_NUMBER\" type=\"fk\" pk-ref=\"12\" fk-ref=\"11\"/></relations></diagram>"
+					}
+				},
+				":HOBBY": {
+					"properties": {
+						"erd.diagram.state": {
+							"serialized": "<diagram version=\"1\" name=\"HOBBY\" time=\"202009240920\"><entities><data-source id=\"oracle_thin-1749f9d1ddd-3e150307f0f3d54\"><entity id=\"1\" name=\"HOBBY\" fq-name=\"HR.HOBBY\" order=\"0\" color-bg=\"255,128,64\" x=\"258\" y=\"141\"><path name=\"HR\"/></entity><entity id=\"2\" name=\"MEMBER2\" fq-name=\"HR.MEMBER2\" order=\"1\" x=\"620\" y=\"119\"><path name=\"HR\"/></entity></data-source></entities><relations><relation name=\"HOBBY_FK\" fq-name=\"HR.HOBBY.HOBBY_FK\" type=\"fk\" pk-ref=\"2\" fk-ref=\"1\"/></relations></diagram>"
+						}
+					}
+				},
+				":MEMBER2": {
+					"properties": {
+						"erd.diagram.state": {
+							"serialized": "<diagram version=\"1\" name=\"MEMBER2\" time=\"202009231314\"><entities><data-source id=\"oracle_thin-1749f9d1ddd-3e150307f0f3d54\"><entity id=\"1\" name=\"MEMBER2\" fq-name=\"HR.MEMBER2\" order=\"0\" color-bg=\"255,128,64\" border-width=\"3\" x=\"284\" y=\"23\"><path name=\"HR\"/></entity><entity id=\"2\" name=\"HOBBY\" fq-name=\"HR.HOBBY\" order=\"1\" x=\"20\" y=\"48\"><path name=\"HR\"/></entity></data-source></entities><relations><relation name=\"HOBBY_FK\" fq-name=\"HR.HOBBY.HOBBY_FK\" type=\"fk\" pk-ref=\"1\" fk-ref=\"2\"/></relations></diagram>"
+						}
+					}
+				}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false
+		}
+	}
+}

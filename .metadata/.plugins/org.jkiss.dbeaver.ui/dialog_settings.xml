@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="DBeaver.FilterValueEditMenu">
+		<item value="450" key="DIALOG_WIDTH"/>
+		<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+		<item value="482" key="DIALOG_HEIGHT"/>
+		<item value="771" key="DIALOG_X_ORIGIN"/>
+		<item value="912" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="DriverDownload">
+	</section>
+	<section name="DBeaver.StandardErrorDialog">
+		<item value="485" key="DIALOG_WIDTH"/>
+		<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+		<item value="244" key="DIALOG_HEIGHT"/>
+		<item value="false" key="showDetails"/>
+		<item value="799" key="DIALOG_X_ORIGIN"/>
+		<item value="613" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="DBeaver.SelectDataSourceDialog">
+		<item value="340" key="DIALOG_WIDTH"/>
+		<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+		<item value="793" key="DIALOG_HEIGHT"/>
+		<item value="836" key="DIALOG_X_ORIGIN"/>
+		<item value="247" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="DBeaver.SQLQueryParameterBindDialog">
+		<item value="480" key="DIALOG_WIDTH"/>
+		<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+		<item value="639" key="DIALOG_HEIGHT"/>
+		<item value="1051" key="DIALOG_X_ORIGIN"/>
+		<item value="355" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="DBeaver.ActiveWizardDialog.NewConnectionWizard">
+		<item value="1493" key="DIALOG_WIDTH"/>
+		<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+		<item value="824" key="DIALOG_HEIGHT"/>
+		<item value="260" key="DIALOG_X_ORIGIN"/>
+		<item value="236" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="DBeaver.EditConnectionDialog">
+		<item value="1234" key="DIALOG_WIDTH"/>
+		<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+		<item value="814" key="DIALOG_HEIGHT"/>
+		<item value="674" key="DIALOG_X_ORIGIN"/>
+		<item value="239" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="DBeaver.DriverDownloadDialog">
+		<item value="700" key="DIALOG_WIDTH"/>
+		<item value="1|맑은 고딕|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕" key="DIALOG_FONT_NAME"/>
+		<item value="996" key="DIALOG_HEIGHT"/>
+		<item value="0" key="DIALOG_X_ORIGIN"/>
+		<item value="0" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="DBeaver.QM.LogViewer">
+	</section>
+	<section name="DBeaver.DriverTabbedViewer">
+	</section>
+	<section name="ResultSetViewer">
+		<section name="presentations">
+			<section name="spreadsheet">
+				<item value="value-view" key="enabledPanelIds"/>
+				<item value="false" key="panelsVisible"/>
+				<item value="false" key="verticalLayout"/>
+				<item value="203" key="panelRatio"/>
+				<item value="value-view" key="activePanelId"/>
+			</section>
+		</section>
+		<section name="ErrorPresentation">
+		</section>
+	</section>
+</section>

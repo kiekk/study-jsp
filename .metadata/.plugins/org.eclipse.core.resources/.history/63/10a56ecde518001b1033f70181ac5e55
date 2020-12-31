@@ -1,0 +1,34 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<div class="top-nav s-12 l-10">
+	<ul class="right chevron text-dark category_list">
+		<li class="submenu">
+			<i>
+				<a href="#" class="material-icons home_icons" style="color: #767676;">home</a>
+			</i>
+		</li>
+		<li class="submenu">
+			<a href="#">Main</a>
+		</li>
+		<li>
+			<img style="padding:15px 5px 0;" src="${pageContext.request.contextPath}/app/assets/img/board_images/btn_nextpage.png" alt="">
+		</li>
+		<li class="submenu">
+			<a href="${pageContext.request.contextPath}/board/BoardList.bo?cat=1">Community</a>
+			<ul>
+				<li><a href="${pageContext.request.contextPath}/board/BoardList.bo?cat=1">Board</a></li>
+				<li><a href="${pageContext.request.contextPath}/board/BoardList.bo?cat=1">Community</a></li>
+			</ul>
+		</li>
+		<li>
+			<img style="padding:15px 5px 0;" src="${pageContext.request.contextPath}/app/assets/img/board_images/btn_nextpage.png" alt="">
+		</li>
+		<li class="submenu">
+			<a>공지사항</a>
+			<ul>
+				<li><a>공지사항</a></li>
+				<li><a>문의사항</a></li>
+			</ul>
+		</li>
+	</ul>
+</div>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;StudioDAO.java&apos; to &apos;Fromme/src/com.fromme.app.studio.dao&apos;&#x0D;&#x0A;- Original project: &apos;dao&apos;&#x0D;&#x0A;- Destination element: &apos;Fromme/src/com.fromme.app.studio.dao&apos;&#x0D;&#x0A;- Original element: &apos;StudioDAO.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move file" destination="=Fromme/src&lt;com.fromme.app.studio.dao" element1="StudioDAO.java" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1605232160460" units="0" version="1.0"/>
+</session>
