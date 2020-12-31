@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;practice_05/WebContent/use_catch_tage.jsp&apos; to &apos;use_catch_tag.jsp&apos;" description="Rename resource &apos;use_catch_tage.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/use_catch_tage.jsp" name="use_catch_tag.jsp" stamp="1601293045614" updateReferences="true"/>
-</session>
